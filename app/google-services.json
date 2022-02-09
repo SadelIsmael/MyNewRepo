@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1031569947072",
+    "project_id": "sadeel1",
+    "storage_bucket": "sadeel1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031569947072:android:ba5fd6ebb6ea92a809b025",
+        "android_client_info": {
+          "package_name": "com.example.ontime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031569947072-ohs7qjda312dn4419jmd22ougk2os6qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3khaFi7ZZv5p4224hHOiZusyywBtdntk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031569947072-ohs7qjda312dn4419jmd22ougk2os6qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031569947072:android:d9f09745f50c837d09b025",
+        "android_client_info": {
+          "package_name": "com.example.timelytaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031569947072-ohs7qjda312dn4419jmd22ougk2os6qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3khaFi7ZZv5p4224hHOiZusyywBtdntk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031569947072-ohs7qjda312dn4419jmd22ougk2os6qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

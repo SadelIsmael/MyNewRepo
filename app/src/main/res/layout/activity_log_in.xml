@@ -4,28 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00151414"
     tools:context=".LogInActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="875dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pages" />
 
     <EditText
         android:id="@+id/etUsernameLOGIN"
-        android:layout_width="303dp"
-        android:layout_height="72dp"
+        android:layout_width="213dp"
+        android:layout_height="77dp"
         android:layout_marginBottom="40dp"
         android:ems="10"
-        android:hint="    Email Adress..."
+        android:hint="Email Adress..."
         android:inputType="textEmailAddress"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/etPasswordLogIn"
+        app:layout_constraintBottom_toTopOf="@+id/etPasswordLOGIN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/etPasswordLogIn"
-        android:layout_width="298dp"
-        android:layout_height="69dp"
-        android:layout_marginBottom="80dp"
+        android:id="@+id/etPasswordLOGIN"
+        android:layout_width="216dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="200dp"
         android:ems="10"
-        android:hint="    Password..."
+        android:hint="Password..."
         android:inputType="textPassword"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/btnLogInLOGIN"
@@ -35,29 +47,41 @@
     <Button
         android:id="@+id/btnLogInLOGIN"
         android:onClick="LogIn"
-        android:layout_width="184dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="200dp"
-        android:background="@color/MainButtons"
+        android:layout_width="159dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="45dp"
+        android:background="#FFB952"
         android:text="Log In"
+        android:textColor="#0B0A0A"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btnBackLOGIN"
-        android:onClick="BackToMain"
-        android:layout_width="76dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginEnd="288dp"
-        android:layout_marginBottom="43dp"
-        android:background="@color/MainButtons"
-        android:text="back"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/tvLogInLOGIN"
+        android:layout_width="258dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="50dp"
+        android:text="    LOG IN PAGE :"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/etUsernameLOGIN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibBackToMainLOGIN"
+        android:onClick="BackToMain"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="350dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <?xml version="1.0" encoding="utf-8"?>
+
+
+
 </android.support.constraint.ConstraintLayout>
